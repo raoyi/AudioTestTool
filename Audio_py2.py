@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#based on windows and python 2.7
+#based on windows and python2.7
 
 from Tkinter import *
 import sys
