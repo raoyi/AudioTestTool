@@ -1,8 +1,7 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
-#based on windows and python2.7
+#based on windows and python3
 
-from Tkinter import *
+from tkinter import *
 import sys
 import os
 import random
@@ -177,6 +176,7 @@ if os.path.isfile('pass.flg') == True:
     
 root = Tk()
 root.title('AudioTest-V1.0')
+root.resizable(width = False, height = False)
 #root.geometry('534x496')
 
 #layout

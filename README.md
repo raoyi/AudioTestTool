@@ -12,3 +12,5 @@ windows平台音频测试工具
 4、测试前检查是否存在pass.flg文件，如果存在，删除pass.flg文件
 
 5、测试pass后，自动生成pass.flg文件作为标记
+
+已知bug：v1.0版在PyInstaller打包成exe后弹出GUI速度慢
