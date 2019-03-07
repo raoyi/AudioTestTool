@@ -16,18 +16,6 @@ def voice():
     global ran
     ran = str(random.randint(1, 9))
     winsound.PlaySound(real+ran+'.wav', winsound.SND_FILENAME)
-
-def flag():
-    try:
-        sys.argv[1] == "-f"
-        while (os.path.isfile('pass.flg') == False):
-            f = open("pass.flg",'w')
-            f.close()
-        break
-    except:
-        pass
-    finally:
-        sys.exit(0)
     
 #click actions
 def click1():
@@ -39,7 +27,11 @@ def click1():
         label['text'] = 'Press number:  |  Right'
         voice()
     elif ioin == str(ran) and real == 'R':
-        sys.exit(0)
+        f = open("pass.flg",'w')
+        f.close()
+        while True:
+            if os.path.isfile('pass.flg') == True:
+                sys.exit(0)
     else:
         voice()
     
@@ -52,7 +44,11 @@ def click2():
         label['text'] = 'Press number:  |  Right'
         voice()
     elif ioin == str(ran) and real == 'R':
-        sys.exit(0)
+        f = open("pass.flg",'w')
+        f.close()
+        while True:
+            if os.path.isfile('pass.flg') == True:
+                sys.exit(0)
     else:
         voice()
     
@@ -65,7 +61,11 @@ def click3():
         label['text'] = 'Press number:  |  Right'
         voice()
     elif ioin == str(ran) and real == 'R':
-        sys.exit(0)
+        f = open("pass.flg",'w')
+        f.close()
+        while True:
+            if os.path.isfile('pass.flg') == True:
+                sys.exit(0)
     else:
         voice()
     
@@ -78,7 +78,11 @@ def click4():
         label['text'] = 'Press number:  |  Right'
         voice()
     elif ioin == str(ran) and real == 'R':
-        sys.exit(0)
+        f = open("pass.flg",'w')
+        f.close()
+        while True:
+            if os.path.isfile('pass.flg') == True:
+                sys.exit(0)
     else:
         voice()
     
@@ -91,7 +95,11 @@ def click5():
         label['text'] = 'Press number:  |  Right'
         voice()
     elif ioin == str(ran) and real == 'R':
-        sys.exit(0)
+        f = open("pass.flg",'w')
+        f.close()
+        while True:
+            if os.path.isfile('pass.flg') == True:
+                sys.exit(0)
     else:
         voice()
     
@@ -104,7 +112,11 @@ def click6():
         label['text'] = 'Press number:  |  Right'
         voice()
     elif ioin == str(ran) and real == 'R':
-        sys.exit(0)
+        f = open("pass.flg",'w')
+        f.close()
+        while True:
+            if os.path.isfile('pass.flg') == True:
+                sys.exit(0)
     else:
         voice()
     
@@ -117,7 +129,11 @@ def click7():
         label['text'] = 'Press number:  |  Right'
         voice()
     elif ioin == str(ran) and real == 'R':
-        sys.exit(0)
+        f = open("pass.flg",'w')
+        f.close()
+        while True:
+            if os.path.isfile('pass.flg') == True:
+                sys.exit(0)
     else:
         voice()
     
@@ -130,7 +146,11 @@ def click8():
         label['text'] = 'Press number:  |  Right'
         voice()
     elif ioin == str(ran) and real == 'R':
-        sys.exit(0)
+        f = open("pass.flg",'w')
+        f.close()
+        while True:
+            if os.path.isfile('pass.flg') == True:
+                sys.exit(0)
     else:
         voice()
     
@@ -143,7 +163,11 @@ def click9():
         label['text'] = 'Press number:  |  Right'
         voice()
     elif ioin == str(ran) and real == 'R':
-        sys.exit(0)
+        f = open("pass.flg",'w')
+        f.close()
+        while True:
+            if os.path.isfile('pass.flg') == True:
+                sys.exit(0)
     else:
         voice()
     
