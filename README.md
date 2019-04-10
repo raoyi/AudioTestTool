@@ -1,7 +1,7 @@
 # AudioTestTool
 [![LICENSE](https://img.shields.io/github/license/raoyi/AudioTestTool.svg)](https://github.com/raoyi/AudioTestTool/blob/master/LICENSE)
 ![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
-![platform](https://img.shields.io/badge/platform-windows-blue.svg)
+![platform](https://img.shields.io/badge/platform-Windows-blue.svg)
 
 windows平台音频测试工具
 
