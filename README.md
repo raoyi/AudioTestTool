@@ -1,4 +1,4 @@
-# AudioTestTool
+# AudioTestTool [![license](https://img.shields.io/github/license/raoyi/AudioTestTool.svg)](https://github.com/raoyi/AudioTestTool/blob/master/LICENSE)
 windows平台音频测试工具
 
 使用说明：
